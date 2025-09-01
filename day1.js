@@ -1,4 +1,4 @@
-
+let blob;
 
 function draw_one_frame(words, vocal, drum, bass, other, counter) {
   background(0) 
@@ -21,5 +21,7 @@ for(let i = 0; i <5; i=i+1){
   ellipse(400,300+(100*i),V);
 
 }
+ellipse(200,200,blob)
+blob = drum*4
 
 }
